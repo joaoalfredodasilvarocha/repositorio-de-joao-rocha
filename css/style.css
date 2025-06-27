@@ -1,0 +1,78 @@
+/*estilo base (põe o texto centralizado, muda a fonte e modifica o tamanho da fonte*/
+* {
+    margin: auto;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+}
+
+/*estilo do cabecalho (muda o espaçamento, modifica o tamanho da fonte, deixa a fonte em negrito, muda a cor de fundo e coloca o texto em branco)*/
+header h1 {
+    padding: 10px;
+    font-size: 32px;
+    font-weight: bolder;
+    background-color: cadetblue;
+    color: white;
+}
+
+/*estilo do menu (muda o espaçamento, remove o visual base dos links e deixa a cor do texto preto)*/
+nav a {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+/*remove o efeito de deixar o link roxo depois de acessar, quando o mouse passa por cima do texto, muda o fundo pra azul e a cor para branco*/
+nav a:visited { color: black; }
+nav a:hover {
+    background: cadetblue;
+    color: white;
+}
+
+/*põe espaçamento, modifica o tamanho da fonte e deixa o padrão da fonte normal, sem ser bolder ou lighter*/
+section h1, section h2 {
+    padding: 10px;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+section h1 { margin-top: 100px; }
+
+section p {
+    padding: 10px;
+    margin-top: 50px;
+    max-width: 70%;
+    text-align: justify;
+}
+
+/*estilização da caixa de texto, deixa ela fixa sem poder aumentar, além de modificar o tamanho*/
+section input{ 
+    margin-top: 50px; 
+}
+
+section textarea {
+    width: 400px;
+    height: 200px;
+    text-align: justify;
+    resize: none;
+}
+
+/*modifica os botões dos links para os sites, deixa o fundo azul, texto branco, modifica a fonte e remove o efeito visual base, além de mudar o espaçamento*/
+section a {
+    display: inline-block;
+    margin-top: 50px;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 24px;
+    background: cadetblue;
+    color: white;
+}
+
+section a:visited { color: white; }
+
+/*modifica o h3, usado em alguns titulos*/
+section h3 {
+    margin-top: 50px;
+    font-weight: normal;
+    font-size: 24px;
+}
